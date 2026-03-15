@@ -1,5 +1,7 @@
 # super-mode-skills
 
+[English](./README.md) | **中文**
+
 基于公开可观察信息与本地研究整理的 `Doubao Super Mode` 风格 skill 仓库。
 
 本仓库不是豆包官方实现，也不声称复刻其闭源产品形态。它做的是另一件事：把豆包超能模式里最值得借鉴的任务编排思想，收敛成一套可维护、可扩展、可双语发布的 skill 体系。
@@ -209,7 +211,6 @@
 super-mode-skills/
 ├─ README.md
 ├─ README.zh-CN.md
-├─ README.en.md
 ├─ zh-cn/
 │  ├─ 超能模式/
 │  │  └─ SKILL.md
