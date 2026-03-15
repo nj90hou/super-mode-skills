@@ -1,12 +1,8 @@
 # super-mode-skills
 
-Bilingual skill packages inspired by Doubao Super Mode.
+中文说明：[`README.zh-CN.md`](./README.zh-CN.md)
 
-- 中文说明：[`README.zh-CN.md`](./README.zh-CN.md)
-- English: [`README.en.md`](./README.en.md)
+英文 README：[`README.en.md`](./README.en.md)
 
-This repository contains two parallel skill sets:
-- `zh-cn/`: Chinese skill definitions
-- `en/`: English skill definitions
-
-Both versions describe the same generation of the workflow: mode selection, task decomposition, research gating, automation handoff, artifact-oriented delivery, and resume-aware execution.
+本仓库根 README 只做导航说明。
+详细设计、能力边界、豆包超能模式对标分析与实现说明，请分别查看中英文 README。
