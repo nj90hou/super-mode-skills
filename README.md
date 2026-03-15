@@ -29,6 +29,12 @@ The repository is centered on one main skill and four child skills. The main ski
 - Simple chat, one-turn Q&A, tiny single-step tasks, or work that does not need orchestration, research gating, or child-skill collaboration.
 - Cases that require a full clone of Doubao's official product UI, runtime, permissions, or closed-source system behavior.
 
+## Notes
+
+- This skill set is developed for OpenCoWork.
+- It has not been tested in openclaw because that environment is not currently available.
+- If you find compatibility or usage issues, please open an issue: `https://github.com/nj90hou/super-mode-skills/issues`
+
 ## Repository structure
 
 ```text

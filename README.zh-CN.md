@@ -29,6 +29,12 @@
 - 轻量闲聊、单轮问答、特别小的单步任务，或不需要编排、研究门禁和子 skill 协作的场景。
 - 想要一比一复刻豆包官方产品 UI、运行时、权限系统或闭源行为的场景。
 
+## 说明
+
+- 本 skill 基于 OpenCoWork 软件开发。
+- 由于当前没有 openclaw 环境，暂未在 openclaw 中完成测试。
+- 如果你发现兼容性或使用问题，欢迎提交 Issues：`https://github.com/nj90hou/super-mode-skills/issues`
+
 ## 仓库结构
 
 ```text
