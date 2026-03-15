@@ -19,6 +19,16 @@ The repository is centered on one main skill and four child skills. The main ski
 - `web-auto-operator`: performs browser-based collection and page actions with human handoff points when needed.
 - `multi-content-generator`: turns research results into final deliverables such as reports, pages, and structured output.
 
+## Use Cases
+
+- Task types: multi-step research, research-plus-writing, browser-assisted collection, automation-plus-delivery, and tasks that need one main orchestrator with several child skills.
+- User roles: suitable for people who need a reusable workflow for planning, evidence-based research, structured web actions, and final deliverable generation.
+
+## Not Suitable
+
+- Simple chat, one-turn Q&A, tiny single-step tasks, or work that does not need orchestration, research gating, or child-skill collaboration.
+- Cases that require a full clone of Doubao's official product UI, runtime, permissions, or closed-source system behavior.
+
 ## Repository structure
 
 ```text
