@@ -92,7 +92,7 @@
 
 本仓库对应实现：
 
-- `web-auto-operator`
+- `网页自动操作器`
 - 自动化子任务中的人工接管点
 - 登录 / 授权 / 提交确认的显式暂停机制
 - 自动化结果回写到结构化产物对象
@@ -122,7 +122,7 @@
 
 ## 本仓库已经实现了什么
 
-### 主 skill：`super-mode`
+### 主 skill：`超能模式`
 
 主 skill 不只是一个路由器，而是控制平面。它负责：
 
@@ -146,7 +146,7 @@
 - `quality_gates`
 - `decomposition_visibility`
 
-### 子 skill 1：`complex-task-handler`
+### 子 skill 1：`复杂任务分处理器`
 
 负责把复杂请求拆成结构化任务图，而不是只输出自然语言待办事项。
 
@@ -162,7 +162,7 @@
 - 统一调整检查点
 - 局部重规划
 
-### 子 skill 2：`deep-web-search`
+### 子 skill 2：`深度网页搜索`
 
 负责正式研究，而不是仅仅返回几条搜索结果。
 
@@ -179,7 +179,7 @@
 - `decision_log`
 - 研究升级路径
 
-### 子 skill 3：`web-auto-operator`
+### 子 skill 3：`网页自动操作器`
 
 负责结构化网页操作与自动化结果回写。
 
@@ -192,7 +192,7 @@
 - 结构化采集结果
 - 截图 / 页面快照等自动化产物回写
 
-### 子 skill 4：`multi-content-generator`
+### 子 skill 4：`多内容生成器`
 
 负责基于研究包和共享状态生成正式交付物。
 
@@ -223,16 +223,7 @@ super-mode-skills/
 │  └─ 多内容生成器/
 │     └─ SKILL.md
 └─ en/
-   ├─ super-mode/
-   │  └─ SKILL.md
-   ├─ complex-task-handler/
-   │  └─ SKILL.md
-   ├─ deep-web-search/
-   │  └─ SKILL.md
-   ├─ web-auto-operator/
-   │  └─ SKILL.md
-   └─ multi-content-generator/
-      └─ SKILL.md
+   └─ ...（英文对应目录，详见英文 README）
 ```
 
 ## 仓库当前能力边界
@@ -301,4 +292,4 @@ super-mode-skills/
 - 更强的回放 / 审计能力
 - 更细粒度的自动化节点协议
 
-如果你想直接使用，建议从 `zh-cn/超能模式/SKILL.md` 或 `en/super-mode/SKILL.md` 开始阅读。
+如果你想直接使用，建议先从 `zh-cn/超能模式/SKILL.md` 开始阅读；如需英文说明，请切换到英文 README。
