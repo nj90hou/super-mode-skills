@@ -1,41 +1,44 @@
 # super-mode-skills
 
-**English** | [中文](./README.zh-CN.md)
+English / 中文：README.zh-CN.md
 
-This repository references the publicly observable capabilities of Doubao Super Mode. The goal is not to replicate Doubao as a product, but to organize the same kind of task flow into a reusable skill system: orchestration, research, automation, and deliverable generation.
+## 🚀 Why Choose
 
-When looking at Doubao Super Mode, the most useful things to study are its multi-step task flow, its switch from clarification to formal execution, and its ability to connect research, browser actions, and final deliverables in one chain. This repository focuses on those structural ideas.
+This repository is for people who want a reusable skill workflow instead of a one-shot prompt.
+It fits work that needs orchestration, research, browser action, and final deliverables in one chain.
 
-The repository is centered on one main skill and four child skills. The main skill acts as the control plane. The child skills handle decomposition, research, automation, and content generation.
+## 💡 Inspiration
 
-## Main skill
+Deeply inspired by Doubao Super Mode.
+This repository references its publicly observable workflow ideas rather than cloning its official UI or closed-source runtime.
 
-- `super-mode`: the orchestrator that selects mode, tracks task state, routes work, enforces gates, and moves the workflow from clarification to delivery.
+## ✨ Key Features
 
-## Child skills
+- One main skill plus four child skills working as one system
+- A chain from clarification to execution and delivery
+- Research, automation, and content generation in the same workflow
+- Bilingual skill definitions for Chinese and English use
 
-- `complex-task-handler`: decomposes complex work into a task graph with dependencies and next steps.
-- `deep-web-search`: handles recon and formal research, then returns a structured evidence pack.
-- `web-auto-operator`: performs browser-based collection and page actions with human handoff points when needed.
-- `multi-content-generator`: turns research results into final deliverables such as reports, pages, and structured output.
+## 🛠️ Quick Start
 
-## Use Cases
+1. Start with `en/super-mode/SKILL.md`.
+2. Read the main skill first to understand orchestration and routing.
+3. Then read the four child skills for decomposition, research, automation, and generation.
+4. Use the release workflow when you need to publish a new version.
+5. This skill set is developed for OpenCoWork. It has not been tested in openclaw because that environment is not currently available. If you find compatibility or usage issues, please open an issue: `https://github.com/nj90hou/super-mode-skills/issues`
 
-- Task types: multi-step research, research-plus-writing, browser-assisted collection, automation-plus-delivery, and tasks that need one main orchestrator with several child skills.
-- User roles: suitable for people who need a reusable workflow for planning, evidence-based research, structured web actions, and final deliverable generation.
+## 🏗️ Architecture Overview
 
-## Not Suitable
+Main skill:
+- `super-mode`: the control-plane skill that manages routing, state, gates, and stage progression.
 
-- Simple chat, one-turn Q&A, tiny single-step tasks, or work that does not need orchestration, research gating, or child-skill collaboration.
-- Cases that require a full clone of Doubao's official product UI, runtime, permissions, or closed-source system behavior.
+Child skills:
+- `complex-task-handler`: decomposes complex work into a task graph.
+- `deep-web-search`: performs recon and formal research.
+- `web-auto-operator`: handles browser-based automation and collection.
+- `multi-content-generator`: turns results into final deliverables.
 
-## Notes
-
-- This skill set is developed for OpenCoWork.
-- It has not been tested in openclaw because that environment is not currently available.
-- If you find compatibility or usage issues, please open an issue: `https://github.com/nj90hou/super-mode-skills/issues`
-
-## Repository structure
+Repository structure:
 
 ```text
 super-mode-skills/
@@ -64,3 +67,18 @@ super-mode-skills/
    └─ multi-content-generator/
       └─ SKILL.md
 ```
+
+## 🌟 Use Cases
+
+Suitable:
+- Multi-step research
+- Research-plus-writing
+- Browser-assisted information collection
+- Automation-plus-delivery
+- Product, operations, research, content, and consulting workflows
+
+Not suitable:
+- Simple chat or one-turn Q and A
+- Tiny single-step tasks
+- Work that does not need orchestration or child-skill collaboration
+- Cases expecting a full clone of Doubao's official UI or runtime
