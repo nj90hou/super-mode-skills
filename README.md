@@ -45,7 +45,7 @@ Suitable:
 - Product, operations, research, content, and consulting workflows
 
 Not suitable:
-- Simple chat or one-turn Q
+- Simple chat or one-turn Q&A
 - Tiny single-step tasks
 - Work that does not need orchestration or child-skill collaboration
 - Cases expecting a full clone of Doubao's official UI or runtime
